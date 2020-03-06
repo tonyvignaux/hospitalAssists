@@ -4,9 +4,6 @@ The program to graph the weekly numbers of assists in Wellington CCDHB hospitals
 It was first written as  Python program and then turned into a Jupyter system.
 This is transferring my Jupyter version to GitHub
 
-===========
-README
-===========
 
 ..    Current program version 2.15
       gav 2016.01.08
@@ -33,7 +30,7 @@ files of (date,count) pairs to be read by the program. A typical row
 is: ``28/09/2009,444,``. The two files are ``weekly.csv`` and
 ``kene.csv``.
 
-The two files are read by the main Python plotting program,
+The two ``csv`` files are read by the main Python plotting program,
 ``weeklyplot.py`` to display a graph. This can (on a Mac, at least) be
 either copied or saved to disk.
 
